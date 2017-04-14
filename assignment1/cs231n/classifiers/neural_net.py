@@ -65,6 +65,7 @@ class TwoLayerNet(object):
     # Unpack variables from the params dictionary
     W1, b1 = self.params['W1'], self.params['b1']
     W2, b2 = self.params['W2'], self.params['b2']
+    # print X.shape
     N, D = X.shape
 
     # Compute the forward pass
